@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+ @tailwind utilities;
+*{
+ animation: all 0.3s linear;   
+}
+#scroll::-webkit-scrollbar {
+    display: none;
+  }
+

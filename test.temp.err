@@ -1,0 +1,4 @@
+d:\CS\Assembly\test.temp.asm(11) : Error A2209: Syntax error: calldumbregs
+d:\CS\Assembly\test.temp.asm(14) : Error A2209: Syntax error: endp                 
+d:\CS\Assembly\test.temp.asm(16) : Error A2151: Unexpected literal found in expression:  main
+d:\CS\Assembly\test.temp.asm(16) : Error A2099: END directive required at end of file
