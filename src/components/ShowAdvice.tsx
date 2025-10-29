@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Mars from '../assets/destination/image-mars.png';
 import Moon from '../assets/destination/image-moon.png';
 import image from '../assets/destination/image-europa.png';
-import background from "/assets/destination/background-destination-desktop.jpg";
+import background from "../assets/destination/background-destination-desktop.jpg";
 import React, { FC } from "react";
 
 interface Advice {
@@ -45,7 +45,7 @@ const ShowAdvice: FC<ShowAdviceProps> = ({ pa, set, list }) => {
         display: pa === 1 ? "flex" : "none",
         backgroundImage: `url(${background})`,
       }}
-      className="w-full min-h-screen bg-[url('..\\src\\assets\\destination\\background-destination-desktop.jpg')] bg-cover bg-no-repeat flex flex-col space-y-16"
+      className="w-full min-h-screen bg-cover bg-no-repeat flex flex-col space-y-16"
     >
       <div className="absolute top-48 left-40 max-[800px]:left-52 max-[800px]:top-5 max-[800px]:w-72 max-[800px]:h-72">
         <img src={Mars} alt="" />

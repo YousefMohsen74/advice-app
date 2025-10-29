@@ -13,11 +13,11 @@ const GenerateAdvice: FC<GenerateAdviceProps> = ({ pa, set }) => {
 
   return (
     <section
-      style={
-        ({ display: pa === 0 ? "flex" : "none" },
-        { backgroundImage: `url(${background})` })
-      }
-      className="w-full min-h-screen bg-[url('..\\src\\assets\\home\\background-home-desktop.jpg')] bg-cover bg-no-repeat flex flex-col space-y-16"
+      style={{
+        display: pa === 0 ? "flex" : "none",
+        backgroundImage: `url(${background})`,
+      }}
+      className="w-full min-h-screen  bg-cover bg-no-repeat flex flex-col space-y-16"
     >
       <div className="w-full flex-1 mt-36 flex items-center px-40 max-[800px]:items-start max-[800px]:pt-20 max-[800px]:justify-center">
         <div className="flex flex-col text-white space-y-8">
